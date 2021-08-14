@@ -5,7 +5,7 @@ namespace Roster.Client.Views
     [System.ComponentModel.DesignTimeVisible(false)]
     public partial class HomeView : ContentPage
     {
-        object v = new { Title = 108 };
+        object v = new { Title = "Roster App" };
 
         public HomeView()
         {
