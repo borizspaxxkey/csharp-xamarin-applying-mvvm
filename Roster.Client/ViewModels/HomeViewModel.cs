@@ -22,17 +22,17 @@ namespace Roster.Client.ViewModels
             }            
         }
 
-        public ObservableCollection<Person> Persons { get; set; }
+        public ObservableCollection<Person> People { get; set; }
 
         public Command UpdateApplicationCommand { get; set; }
 
         public HomeViewModel()
         {
             UpdateApplicationCommand = new Command(UpdateApplicationCommandExecute);
-            Persons = new ObservableCollection<Person>();
-            Persons.Add(new Person() { Name="Delores Feil", Company= "Legros Group"});
-            Persons.Add(new Person() { Name = "Ann Zboncak", Company = "Ledner - Ferry" });
-            Persons.Add(new Person() { Name = "Jaime Lesch", Company = "Herzog and Sons" });
+            People = new ObservableCollection<Person>();
+            People.Add(new Person() { Name="Delores Feil", Company= "Legros Group"});
+            People.Add(new Person() { Name = "Ann Zboncak", Company = "Ledner - Ferry" });
+            People.Add(new Person() { Name = "Jaime Lesch", Company = "Herzog and Sons" });
 
         }
 
